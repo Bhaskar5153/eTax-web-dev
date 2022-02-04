@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.navigation_bar_wrapper {
+    padding: 10px;
+    
+    border: 1px solid gray;
+    display: block;
+    background: transparent;
+    height: 150px;
+    background-position: center;
+    background-size: cover; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(nav_img_tax.jpg);
+}
+
+.company_title a {
+    color:red;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 50px;
+
+}
+
+.create_account_btn {
+    width: 150px;
+    height: 50px;
+    background-color: darkgray;
+    float: right;
+    border: 1px solid black;
+    
+
+}
+
+
+.company_title h4 {
+    color: white;
+    position: absolute;
+
+
+}
+
+.subject_wrapper {
+    font-size: 30px;
+    font-weight: 5px;
+    color: white;
+    background-color: rgb(62, 141, 216);
+    padding: 10px;
+}
+
+.login_heading_wrapper {
+    width: 100%;
+    height: 10px;
+    padding: 50px;
+    color: darkgreen;
+    font-size: 15px;
+    
+}
+
+.login_heading_wrapper h3 {
+    color:green;
+    float: left;
+    
+    
+}
+
+
+
+.login_field_wrapper {
+    padding: 50px;
+    width: 100%;
+    height: 100px;
+   
+    display: flex;
+    
+}
+
+.label_wrapper {
+    width: 250px;
+    height: 150px;  
+    text-align: justify;
+    display: flex;
+
+    
+}
+
+.label_wrapper label {
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+
+    
+}
+
+
+.input_field_wrapper {
+    width: 250px;
+    height: 150px;
+    
+}
+
+.input_field_wrapper input {
+    width: 300px;
+    height: 50px;
+    background-color: cornsilk;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px black;
+    
+}
+
+.login_field_wrapper> .label_wrapper {
+    display: grid;
+}
+
+
+.check_box_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 50px 0px 0px 50px;
+    
+    
+}
+
+.check_box_wrapper input {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.check_box_wrapper p {
+    padding: 5px;
+}
+
+.check_box_wrapper button {
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+.help_link_wrapper {
+    display: flex;
+    padding: 10px 0px 0px 10px;
+    margin: 50px;
+
+}
+
+.help_link_wrapper a {
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+
+.final_wrapper p {
+    color: rgba(49, 41, 41, 0.274);
+    margin: 50px;
+}
